@@ -10,12 +10,12 @@ import NavBar from '../components/navbar'
 const initialData = [
   {
     id: shortid.generate(),
-    subject: 'Buy movie tickets for Friday',
+    subject: 'Comprar boletos para pelicula',
     done: false
   },
   {
     id: shortid.generate(),
-    subject: 'Make a React Native tutorial',
+    subject: 'Crear aplicacion React Native',
     done: false
   }
 ]
@@ -66,7 +66,7 @@ export default function MainScreen() {
       w="full"
     >
       <Masthead
-        title="What's up, Takuya!"
+        title="What's up Marco"
         image={require('../assets/masthead.png')}
       >
         <NavBar />

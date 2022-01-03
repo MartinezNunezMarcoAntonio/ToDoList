@@ -23,7 +23,7 @@ const AboutScreen = () => {
     >
       <Masthead
         title="About this app"
-        image={require('../assets/about-masthead.png')}
+        image={require('../assets/wallpaper2.jpg')}
       >
         <Navbar />
       </Masthead>
@@ -38,7 +38,7 @@ const AboutScreen = () => {
         <VStack flex={1} space={4}>
           <Box alignItems="center">
             <Image
-              source={require('../assets/takuya.jpg')}
+              source={require('../assets/profile.jpg')}
               borderRadius="full"
               resizeMode="cover"
               w={120}
@@ -47,14 +47,13 @@ const AboutScreen = () => {
             />
           </Box>
           <Text fontSize="md" w="full">
-            This is a React Native tutorial built in the YouTube channel called
-            DevAsLife.
+            this is an App to do list of all tasks
           </Text>
           <LinkButton
             colorScheme="red"
             size="lg"
             borderRadius="full"
-            href="https://www.youtube.com/devaslife"
+            href="https://www.youtube.com"
             leftIcon={
               <Icon as={Feather} name="youtube" size="sm" opacity={0.5} />
             }
@@ -65,27 +64,12 @@ const AboutScreen = () => {
             colorScheme={useColorModeValue('blue', 'darkBlue')}
             size="lg"
             borderRadius="full"
-            href="https://twitter.com/inkdrop_app"
+            href="https://twitter.com/"
             leftIcon={
               <Icon as={Feather} name="twitter" size="sm" opacity={0.5} />
             }
           >
-            @inkdrop_app
-          </LinkButton>
-          <Text fontSize="md" w="full">
-            Are you looking for a Markdown note-taking app? Check out my app
-            called Inkdrop!
-          </Text>
-          <LinkButton
-            colorScheme="purple"
-            size="lg"
-            borderRadius="full"
-            href="https://www.inkdrop.app/"
-            leftIcon={
-              <Icon as={Feather} name="external-link" size="sm" opacity={0.5} />
-            }
-          >
-            https://www.inkdrop.app/
+            @MarcoA
           </LinkButton>
         </VStack>
       </ScrollView>
